@@ -100,4 +100,28 @@ body:hover {
     opacity: 0.8;
 }
 
+.label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+    padding: 3px;
+}
 
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #3f72af;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    flex: 1;
+
+}
+
+.cta:hover {
+    background-color: #384259;
+}
