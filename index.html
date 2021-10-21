@@ -57,15 +57,37 @@
 
     <div class="intro">
         <h3 class="name"> Обратитесь в нашу службу институциональных продаж за дополнительной информацией.</h3>
-    </div>
-    <form >
-        <ul>
-            <li>
-                <label for="name">
-                <input type="text" id="name" name="Ваше имя" Ваше имя></label>
-            </li>
-        </ul>
-    </form>
+    </div> 
+        <form >
+            <div>
+                <label for="name">Имя</label>
+                <input type="text" name="name" required placeholder="Ваше имя">
+            </div>
+
+            <div>
+                <label for="email"> Email</label>
+                <input type="text" name="email" required placeholder="Ваш e-mail"> 
+            </div>
+
+            <div>
+                <label for="country">Страна</label>
+                <select name="country">
+                    <option >Выберите Вашу страну</option>
+                    <option value="Россия"> Россия</option>
+                    <option value="Украина"> Украина</option>
+                    <option value="Казахстан"> Казахстан</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="msg"> Комментарий</label>
+                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            </div>
+
+
+
+        </form>
+    
 
     
 </body>
